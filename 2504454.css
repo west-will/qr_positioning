@@ -9,6 +9,44 @@ body {
     margin: 0;
 }
 
+button {
+    width:120px;
+    height:50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 1px 3px 1px rgba(0, 0, 0, 0.555);
+    background-color: crimson;
+    letter-spacing: 1px;
+    font-size:22px;
+    color:white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.888);
+    transition: background-color 0.5s;
+    font-family: 'Franklin Gothic Medium';
+}
+
+#no {
+    margin-top: 15px;
+    width: 200px;
+    border: 1px solid black;
+    display: none;
+}
+p {
+    margin: 0;
+    border: 2px solid gray;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(185, 185, 184);
+    padding: 15px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium';
+}
+
+button:hover {
+    background-color: var(--theme);
+    cursor: pointer;
+}
+
 h1 {
     font-family: "Arial";
     color: var(--theme);
